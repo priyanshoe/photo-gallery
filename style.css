@@ -27,7 +27,7 @@ body {
 .card {
     height: 80%;
     width: 10%;
-    transition: all 1s ease;
+    transition: all 1s cubic-bezier( 0.645, 0.045, 0.355, 1 );
 }
 
 .card img {
